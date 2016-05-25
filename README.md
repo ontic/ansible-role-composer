@@ -2,7 +2,7 @@
 
 | Branch             | Build               | Galaxy              | Release              |
 | :----------------- | :------------------ | :------------------ | :------------------- |
-| **master**         | [![Build](https://img.shields.io/travis/ontic/ansible-role-composer/master.svg)](https://travis-ci.org/ontic/ansible-role-composer) | [![Galaxy](https://img.shields.io/badge/galaxy-ontic.composer-blue.svg)](https://galaxy.ansible.com/list#/roles/6207) | [![Release](https://img.shields.io/github/release/ontic/ansible-role-composer.svg)](https://github.com/ontic/ansible-role-composer/releases) |
+| **master**         | [![Build](https://img.shields.io/travis/ontic/ansible-role-composer/master.svg)](https://travis-ci.org/ontic/ansible-role-composer) | [![Galaxy](https://img.shields.io/badge/galaxy-ontic.composer-blue.svg)](https://galaxy.ansible.com/ontic/composer) | [![Release](https://img.shields.io/github/release/ontic/ansible-role-composer.svg)](https://github.com/ontic/ansible-role-composer/releases) |
 
 ## Introduction
 
