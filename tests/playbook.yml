@@ -19,5 +19,5 @@
     composer_global_packages:
       - { name: phpunit/phpunit, release: "@stable" }
   roles:
-    - { role: ../../ }
     - { role: ontic.php }
+    - { role: ../../ }
