@@ -1,0 +1,31 @@
+# This source file is subject to the (Open Source Initiative) BSD license
+# that is bundled with this package in the LICENSE file. It is also available
+# through the world-wide-web at this URL: http://www.ontic.com.au/license.html
+# If you did not receive a copy of the license and are unable to obtain it through
+# the world-wide-web, please send an email to license@ontic.com.au immediately.
+# Copyright (c) 2010-2016 Ontic. (http://www.ontic.com.au). All rights reserved.
+
+---
+
+- name: Composer | Define PHP executable.
+  set_fact:
+    php_executable: php
+  when: php_executable is not defined
+  tags:
+    - composer
+    - composer-package
+    - composer-configure
+    - package
+    - configure
+
+- include: package.yml
+  tags:
+    - composer
+    - composer-package
+    - package
+
+- include: configure.yml
+  tags:
+    - composer
+    - composer-configure
+    - configure
