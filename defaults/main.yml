@@ -7,12 +7,12 @@
 
 ---
 
-composer_path: /usr/local/bin/composer
-composer_keep_updated: false
+composer_path: '/usr/local/bin/composer'
+composer_keep_updated: no
+composer_add_to_path: yes
 composer_version:
 composer_home_path: '~/.composer'
-composer_home_owner: root
-composer_home_group: root
-composer_global_packages: []
-composer_add_to_path: true
+composer_home_owner: 'root'
+composer_home_group: 'root'
+composer_global_packages:
 composer_github_oauth_token:

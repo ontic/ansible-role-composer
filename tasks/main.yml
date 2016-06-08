@@ -7,25 +7,25 @@
 
 ---
 
-- name: Composer | Define PHP executable.
+- name: 'Composer | Define PHP executable.'
   set_fact:
-    php_executable: php
-  when: php_executable is not defined
+    php_executable: 'php'
+  when: '{{ php_executable is not defined }}'
   tags:
-    - composer
-    - composer-package
-    - composer-configure
-    - package
-    - configure
+    - 'composer'
+    - 'composer-package'
+    - 'composer-configure'
+    - 'package'
+    - 'configure'
 
-- include: package.yml
+- include: 'package.yml'
   tags:
-    - composer
-    - composer-package
-    - package
+    - 'composer'
+    - 'composer-package'
+    - 'package'
 
-- include: configure.yml
+- include: 'configure.yml'
   tags:
-    - composer
-    - composer-configure
-    - configure
+    - 'composer'
+    - 'composer-configure'
+    - 'configure'
