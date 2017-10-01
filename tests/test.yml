@@ -3,7 +3,7 @@
 
 ---
 
-- hosts: 'all'
+- hosts: 'localhost'
   vars:
     php_version: '7.1'
     php_ppa: 'ppa:ondrej/php'
@@ -17,4 +17,4 @@
       - { name: 'phpunit/phpunit', release: "@stable" }
   roles:
     - { role: 'ontic.php' }
-    - { role: 'ontic.composer' }
+    - { role: 'role_under_test' }
