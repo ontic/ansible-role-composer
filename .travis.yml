@@ -8,13 +8,10 @@ services: 'docker'
 env:
   - distribution: 'centos'
     version: '7'
-    playbook: 'test-centos.yml'
   - distribution: 'debian'
     version: '9'
-    playbook: 'test-debian.yml'
   - distribution: 'ubuntu'
     version: '16.04'
-    playbook: 'test-ubuntu.yml'
 
 before_install:
   - 'export container_id=$(date +%s)'
