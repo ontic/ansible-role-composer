@@ -1,4 +1,8 @@
 #!/bin/bash
+# Copyright (c) Ontic. (http://www.ontic.com.au). All rights reserved.
+# See the COPYING file bundled with this package for license details.
 
-# Verify the installed version of Composer.
-docker exec --tty ${container_id} env TERM=xterm composer || true
+# Verify the installed location.
+docker exec --tty ${container_id} env TERM=xterm which composer
+# Verify the installed version.
+docker exec --tty ${container_id} env TERM=xterm composer
