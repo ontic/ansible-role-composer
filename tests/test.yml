@@ -16,8 +16,6 @@
     php_packages:
       - name: 'common'
       - name: 'cli'
-      - name: 'dev'
-      - name: 'fpm'
       - name: 'bcmath'
       - name: 'bz2'
       - name: 'curl'
